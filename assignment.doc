@@ -1,0 +1,37 @@
+Problem 1:
+
+URL: 
+https://ghrc.nsstc.nasa.gov/hydro/es_proxy.php?esurl=_sql?sql=SELECT * from ghrc limit 1
+https://ghrc.nsstc.nasa.gov/hydro/es_proxy.php?esurl=_sql?sql=SELECT * from ghrc_inv
+
+
+Create a Python application to query the API and populate the data. 
+Extract these variables for all datasets:
+ds_short_name
+Platform
+Authors
+start_date
+Stop_date
+Format
+Coll_name
+Proj_name
+Dataset_name
+Project_home_page [url]
+
+
+Format
+Granule_name
+data_access
+Checksum
+File_size
+
+Find the overall dataset count
+Find the files count for each dataset
+Find the total no. of files available
+Show the datasets between a date range
+Select a variable and show the associated dataset
+For eg: Choose any format and show which dataset has those formats
+Show the download links for a selected dataset 
+Users should be able to select no. of  links to display
+Show the statistics for all dataset
+Export all the variables in a JSON file
